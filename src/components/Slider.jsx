@@ -21,15 +21,15 @@ const images = [
   
    
     {
-        url: 'URL_PAGINA_1',
+        url: 'https://public.tableau.com/app/profile/francisco.guasumba/vizzes',
         path: tableu // Ruta de la imagen local
       },
       {
-        url: 'URL_PAGINA_2',
+        url: 'https://github.com/Franciscogtu?tab=repositories',
         path: git
       },
       {
-        url: 'URL_PAGINA_3',
+        url: 'https://www.linkedin.com/in/francisco-guasumba/',
         path: linkedin,
       },
   ];
@@ -55,9 +55,11 @@ export const Slider = () => {
         onSwiper={(swiper) => console.log(swiper)}
         //onSlideChange={() => console.log('slide change')}
       >
-        {images.map((image, index) => (
+        {images.map((image, index,url) => (
+          
           <SwiperSlide key={index}>
-            <img src={image.path} alt={`Image ${index}`} className='container flex '/>
+            <a href={image.url} target="_blank" className='cursor-pointer'><img src={image.path} alt={`Image ${index}`} target="_blank" className='container flex '/></a>
+           
           </SwiperSlide>
         ))}
       </Swiper>
