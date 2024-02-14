@@ -3,6 +3,9 @@ import { TypeAnimation } from 'react-type-animation';
 import {FaGit, FaLinkedin} from 'react-icons/fa'
 import { SiTableau } from "react-icons/si";
 import { ParallaxProvider, Parallax } from 'react-scroll-parallax';
+import { IoLogoWhatsapp } from "react-icons/io";
+
+import { MdEmail } from "react-icons/md";
 import { ParallaxBanner } from 'react-scroll-parallax';
 
 import i1 from '../assets/mont1.png';
@@ -76,11 +79,18 @@ const Main = () => {
                 repeat={Infinity}
             />
         </h2>
-        <div className='flex justify-between pt-28 max-w-[300px] w-full m-10 '>
+        <div className='flex justify-between pt-28 max-w-[300px] w-full m-10 text-xl font-bold'>
                 <a href="https://www.linkedin.com/in/francisco-guasumba/"target="_blank" className='cursor-pointer'><FaLinkedin className='cursor-pointer' size={40}  style={{ filter: 'invert(1)' }}/></a>
                 <a href="https://github.com/Franciscogtu?tab=repositories"target="_blank" className='cursor-pointer'><FaGit  className='cursor-pointer' size={40} style={{ filter: 'invert(1)' }}/></a>
                 <a href="https://public.tableau.com/app/profile/francisco.guasumba/vizzes"target="_blank" className='cursor-pointer'><SiTableau className='cursor-pointer' size={40} style={{ filter: 'invert(1)' }} /></a>
+
         </div>
+        <div className='grid grid-rows-2  gap-4 pt-0 max-w-[300px] w-full m-10 text-white'>
+                <a href="https://wa.link/1xnpxi"target="_blank" className=' flex cursor-pointer gap-4'  ><IoLogoWhatsapp className='cursor-pointer text-md ' size={20}  />  +34 618 546 186</a>
+                <a href="mailto:franciscoguasumba1@gmail.com"target="_blank" className='flex cursor-pointer gap-4'><MdEmail  className='cursor-pointer text-md' size={20} />  franciscoguasumba1@gmail.com</a>
+                
+                
+        </div>  
         </div>
        </div>
     </div>

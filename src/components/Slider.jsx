@@ -13,7 +13,7 @@ import 'swiper/css/scrollbar';
 
 import tableu from '../assets/TABLEU.jpg'
 import git from '../assets/GIT.png'
-import linkedin from "../assets/linkedin.jpg"
+//import linkedin from "../assets/linkedin.jpg"
 
 
 
@@ -28,10 +28,7 @@ const images = [
         url: 'https://github.com/Franciscogtu?tab=repositories',
         path: git
       },
-      {
-        url: 'https://www.linkedin.com/in/francisco-guasumba/',
-        path: linkedin,
-      },
+     
   ];
 
 
