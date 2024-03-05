@@ -9,7 +9,7 @@ import { MdEmail } from "react-icons/md";
 import { ParallaxBanner } from 'react-scroll-parallax';
 
 import i1 from '../assets/mont1.png';
-import i2 from '../assets/f2.png'
+import i2 from '../assets/Fran.png';
 
 const Main = () => {
   return (
@@ -37,7 +37,7 @@ const Main = () => {
           { image: i2, speed: -60  , 
             scale: [0.8, 0,'easeInOutQuint'],
             rotateX:[30],
-            translateY:[-90,120],
+            translateY:[-110,120],
             translateX: [0, 20] , 
             className: 'flex  items-center h-auto w-auto mb-10 hidden sm:block ' , style: { boxShadow: '0px 190px 150px -150px rgba(255, 255, 255, 0.7)' }},//hidden sm:block
         ]}
