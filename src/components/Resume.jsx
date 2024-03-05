@@ -8,7 +8,7 @@ const  data = [
     
         Work:'Universidad Complutense de madrid',
         Company:'Madrid-España',
-        Year:'2024 (actualmente) ',
+        Year:'2024 (currently - part time) ',
         Duration:'',
         Details:'Master in Big Data, Data Science & Artificial Intelligence'
      },
