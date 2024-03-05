@@ -110,7 +110,7 @@ const Resume = () => {
 </div>
 
   <div  className='max-w-[1040px] m-auto md:pl-20 px- 4 pt-10 pb-0  '>
-      <h1 className='text-4xl font-bold text-center text-[#001be] pb-0 '>Courses</h1>
+      <h1 className='text-4xl font-bold text-center text-[#001be] pb-0 '>Tech Skills</h1>
   </div>
   
   <div>
