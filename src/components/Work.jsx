@@ -7,7 +7,7 @@ const  data = [
     
         Work:'Python Developer',
         Company:'Freelancer',
-        Year:'Present ',
+        Year:'Present - part time',
         Duration:'',
         Details:'Webscrap,collect, extract and process information data (ETL), scripts (Python)'
      },
